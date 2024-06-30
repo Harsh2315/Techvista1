@@ -1,0 +1,153 @@
+ *{
+    background-image:url("img3.jpeg");
+    height: auto;
+    width:auto;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+@media (min-width:570px)and (max-width:1000px){
+        display:block;
+        flex-wrap: wrap;
+        font-size :15px;
+}
+}
+
+ .nav {
+    height: 25px;
+    width: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    position: relative;
+    text-decoration:none;
+    display: inline;
+    justify-content: right;
+    font-style: normal;
+    font-size: 25px;
+    font-family: Arial;
+    word-spacing: 8px;
+ }
+ 
+h1{
+    color:rgb(202, 8, 8) ;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 5px;
+    
+}
+.list a:hover{
+    color: brown;
+}
+.list a{
+    color:black;
+}
+
+.frontend{
+      border:2px solid brown;
+      width:300px;
+      border-radius: 0px 20px 0px 20px;
+      height:440px;
+      background-color:transparent;
+      margin-left: 0px;
+      margin-right: 20px;
+      padding: 10px 20px;
+      color:#565656;
+      margin-top:30px;
+      text-align: left;
+      font-style: bold;
+      font-weight: 700;
+      font-size: 20px;
+}  
+p{
+    text-align: left;
+}
+.backend{
+    border:2px solid brown;
+    width:300px;
+     margin-right: 70px;
+     margin-left: 70px;
+      height:440px;
+      background-color: transparent;
+      margin-top: 30px;      
+      color:#565656;
+      padding: 10px 20px;
+      text-align: left;
+      border-radius: 0px 20px 0px 20px;
+      font-weight: 700;
+      font-size: 20px;
+}
+ li{
+     color: black;
+     margin-bottom:5px;
+     font-size: 12.5px;
+
+}
+.fullstack{
+    border:2px solid brown;
+    width:300px;
+    height:440px;
+    background-color: transparent;
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 10px 20px;
+    text-align: left;
+    border-radius: 0px 20px 0px 20px;
+    font-weight: 700;
+    color:#565656;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.details{
+    color:black;
+    height: 20px;
+    width: 20px;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 700;
+    margin-top: 5px;
+    color:#565656;
+}
+button{
+    font-weight: 700;
+    border-radius: 50px 50px 50px 50px;
+    color: black;
+    font-size: 15px;
+    height: 40px;
+    margin-top: 10px;
+    width: 110px;
+    display: end;
+    float: right;
+    
+}
+button:hover{
+    background:rgb(173, 148, 224);
+}
+.Contact{
+    color:black;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+}
+.About{
+    font-weight: 700;
+    color:black;
+    font-size: 20px;
+    
+}
+p{
+    font-weight: 700;
+}
+.heading{
+    font-size: 50px;
+    color: blue;
+    font-weight: 600;
+    font-family: cursive;
+}
